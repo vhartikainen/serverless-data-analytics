@@ -17,8 +17,8 @@
     "NodeType": {
       "Description": "The node type to be provisioned for the redshift cluster",
       "Type": "String",
-      "Default": "dc1.large",
-      "AllowedValues" : [  "dc1.large", "ds2.xlarge"],
+      "Default": "dc2.large",
+      "AllowedValues" : [  "dc2.large", "ds2.xlarge"],
       "ConstraintDescription" : "must be a valid RedShift node type."
     },
     "MasterUsername": {
